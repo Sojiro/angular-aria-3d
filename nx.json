@@ -45,7 +45,7 @@
     }
   },
   "release": {
-    "projects": ["api"],
+    "projects": ["packages/*"],
     "projectsRelationship": "independent",
     "docker": {
       "skipVersionActions": true
@@ -95,15 +95,15 @@
     "@nx/angular:application": {
       "e2eTestRunner": "playwright",
       "linter": "eslint",
-      "style": "css",
-      "unitTestRunner": "vitest-analog"
+      "style": "scss",
+      "unitTestRunner": "jest"
     },
     "@nx/angular:library": {
       "linter": "eslint",
-      "unitTestRunner": "vitest-analog"
+      "unitTestRunner": "jest"
     },
     "@nx/angular:component": {
-      "style": "css"
+      "style": "scss"
     }
   }
 }
