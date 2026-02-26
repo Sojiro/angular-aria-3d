@@ -42,6 +42,24 @@
     "@nx/vitest:test": {
       "cache": true,
       "inputs": ["default", "^production"]
+    },
+    "@nx/angular:package": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "@nx/jest:jest": {
+      "cache": true,
+      "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
     }
   },
   "release": {
@@ -49,6 +67,9 @@
     "projectsRelationship": "independent",
     "docker": {
       "skipVersionActions": true
+    },
+    "version": {
+      "preVersionCommand": "npx nx run-many -t build"
     }
   },
   "plugins": [
