@@ -1,7 +1,7 @@
 import { InjectionToken, Provider } from '@angular/core';
 import { Aa3dTheme, Aa3dThemeConfig } from './aa3d-theme';
 
-export { Aa3dTheme } from './aa3d-theme';
+export type { Aa3dTheme } from './aa3d-theme';
 
 export const DEFAULT_THEME: Aa3dTheme = {
   hue: 345,
