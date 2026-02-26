@@ -18,7 +18,8 @@
       "@angular-aria-3d/core": ["packages/core/src/index.ts"],
       "@angular-aria-3d/button": ["packages/button/src/index.ts"],
       "@angular-aria-3d/accordion": ["packages/accordion/src/index.ts"],
-      "@angular-aria-3d/tabs": ["packages/tabs/src/index.ts"]
+      "@angular-aria-3d/tabs": ["packages/tabs/src/index.ts"],
+      "@angular-aria-3d/menu": ["packages/menu/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
