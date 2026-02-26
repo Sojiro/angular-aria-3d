@@ -21,7 +21,11 @@
       "@angular-aria-3d/tabs": ["packages/tabs/src/index.ts"],
       "@angular-aria-3d/menu": ["packages/menu/src/index.ts"],
       "@angular-aria-3d/menubar": ["packages/menubar/src/index.ts"],
-      "@angular-aria-3d/toolbar": ["packages/toolbar/src/index.ts"]
+      "@angular-aria-3d/toolbar": ["packages/toolbar/src/index.ts"],
+      "@angular-aria-3d/select": ["packages/select/src/index.ts"],
+      "@angular-aria-3d/multiselect": ["packages/multiselect/src/index.ts"],
+      "@angular-aria-3d/combobox": ["packages/combobox/src/index.ts"],
+      "@angular-aria-3d/autocomplete": ["packages/autocomplete/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
