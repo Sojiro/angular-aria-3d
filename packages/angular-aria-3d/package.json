@@ -1,0 +1,23 @@
+{
+  "name": "angular-aria-3d",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/core": ">=21.0.0",
+    "@angular/aria": ">=21.0.0",
+    "@angular-aria-3d/core": ">=0.0.0",
+    "@angular-aria-3d/button": ">=0.0.0",
+    "@angular-aria-3d/accordion": ">=0.0.0",
+    "@angular-aria-3d/tabs": ">=0.0.0",
+    "@angular-aria-3d/menu": ">=0.0.0",
+    "@angular-aria-3d/menubar": ">=0.0.0",
+    "@angular-aria-3d/toolbar": ">=0.0.0",
+    "@angular-aria-3d/listbox": ">=0.0.0",
+    "@angular-aria-3d/select": ">=0.0.0",
+    "@angular-aria-3d/multiselect": ">=0.0.0",
+    "@angular-aria-3d/combobox": ">=0.0.0",
+    "@angular-aria-3d/autocomplete": ">=0.0.0",
+    "@angular-aria-3d/tree": ">=0.0.0",
+    "@angular-aria-3d/grid": ">=0.0.0"
+  },
+  "sideEffects": false
+}
