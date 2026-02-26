@@ -27,7 +27,8 @@
       "@angular-aria-3d/combobox": ["packages/combobox/src/index.ts"],
       "@angular-aria-3d/autocomplete": ["packages/autocomplete/src/index.ts"],
       "@angular-aria-3d/tree": ["packages/tree/src/index.ts"],
-      "@angular-aria-3d/listbox": ["packages/listbox/src/index.ts"]
+      "@angular-aria-3d/listbox": ["packages/listbox/src/index.ts"],
+      "@angular-aria-3d/grid": ["packages/grid/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
