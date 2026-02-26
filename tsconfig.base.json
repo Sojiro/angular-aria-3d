@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-aria-3d/core": ["packages/core/src/index.ts"]
+      "@angular-aria-3d/core": ["packages/core/src/index.ts"],
+      "@angular-aria-3d/button": ["packages/button/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
