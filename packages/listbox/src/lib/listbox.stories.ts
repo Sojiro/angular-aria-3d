@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/angular';
 import { moduleMetadata } from '@storybook/angular';
-import { Aa3dListbox, Aa3dOption } from '@angular-aria-3d/listbox';
+import { Aa3dListbox, Aa3dOption } from './listbox';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

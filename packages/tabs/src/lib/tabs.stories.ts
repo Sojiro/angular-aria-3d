@@ -5,7 +5,7 @@ import {
   Aa3dTabList,
   Aa3dTab,
   Aa3dTabPanel,
-} from '@angular-aria-3d/tabs';
+} from './tabs';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

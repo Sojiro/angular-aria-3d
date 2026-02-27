@@ -4,7 +4,7 @@ import {
   Aa3dTree,
   Aa3dTreeItem,
   Aa3dTreeItemGroup,
-} from '@angular-aria-3d/tree';
+} from './tree';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

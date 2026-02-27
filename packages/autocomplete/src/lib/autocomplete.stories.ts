@@ -5,7 +5,7 @@ import {
   Aa3dAutocompleteInput,
   Aa3dAutocompleteListbox,
   Aa3dAutocompleteOption,
-} from '@angular-aria-3d/autocomplete';
+} from './autocomplete/autocomplete';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

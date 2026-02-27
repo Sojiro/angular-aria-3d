@@ -4,7 +4,7 @@ import {
   Aa3dToolbar,
   Aa3dToolbarButton,
   Aa3dToolbarWidgetGroup,
-} from '@angular-aria-3d/toolbar';
+} from './toolbar';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

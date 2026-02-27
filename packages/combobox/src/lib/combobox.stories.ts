@@ -5,7 +5,7 @@ import {
   Aa3dComboboxInput,
   Aa3dComboboxListbox,
   Aa3dComboboxOption,
-} from '@angular-aria-3d/combobox';
+} from './combobox/combobox';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

@@ -5,7 +5,7 @@ import {
   Aa3dMultiselectTrigger,
   Aa3dMultiselectListbox,
   Aa3dMultiselectOption,
-} from '@angular-aria-3d/multiselect';
+} from './multiselect/multiselect';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

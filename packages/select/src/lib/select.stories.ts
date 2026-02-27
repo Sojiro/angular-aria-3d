@@ -5,7 +5,7 @@ import {
   Aa3dSelectTrigger,
   Aa3dSelectListbox,
   Aa3dSelectOption,
-} from '@angular-aria-3d/select';
+} from './select/select';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

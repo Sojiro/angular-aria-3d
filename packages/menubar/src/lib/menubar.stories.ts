@@ -4,7 +4,7 @@ import {
   Aa3dMenubar,
   Aa3dMenubarTrigger,
   Aa3dMenubarItem,
-} from '@angular-aria-3d/menubar';
+} from './menubar';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

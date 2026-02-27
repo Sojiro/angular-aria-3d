@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/angular';
 import { moduleMetadata } from '@storybook/angular';
-import { Aa3dGrid, Aa3dGridRow, Aa3dGridCell } from '@angular-aria-3d/grid';
+import { Aa3dGrid, Aa3dGridRow, Aa3dGridCell } from './grid';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {

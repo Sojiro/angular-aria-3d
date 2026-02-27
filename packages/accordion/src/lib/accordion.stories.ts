@@ -5,7 +5,7 @@ import {
   Aa3dAccordionItem,
   Aa3dAccordionHeader,
   Aa3dAccordionPanel,
-} from '@angular-aria-3d/accordion';
+} from './accordion';
 import { provideAngularAria3d } from '@angular-aria-3d/core';
 
 const meta: Meta = {
