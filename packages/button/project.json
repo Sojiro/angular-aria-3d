@@ -43,6 +43,28 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "storybook": {
+      "executor": "@storybook/angular:start-storybook",
+      "options": {
+        "configDir": "packages/button/.storybook",
+        "browserTarget": "button:build-storybook-deps",
+        "compodoc": false,
+        "port": 4400
+      }
+    },
+    "build-storybook": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "configDir": "packages/button/.storybook",
+        "browserTarget": "button:build-storybook-deps",
+        "compodoc": false,
+        "outputDir": "dist/storybook/button"
+      }
+    },
+    "build-storybook-deps": {
+      "executor": "nx:noop"
     }
   }
 }
