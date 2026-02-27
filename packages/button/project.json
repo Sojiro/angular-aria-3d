@@ -50,6 +50,7 @@
         "configDir": "packages/button/.storybook",
         "browserTarget": "button:build-storybook-deps",
         "compodoc": false,
+        "styles": ["packages/core/src/lib/surface/aa3d-surface.scss"],
         "port": 4400
       }
     },
@@ -60,6 +61,7 @@
         "configDir": "packages/button/.storybook",
         "browserTarget": "button:build-storybook-deps",
         "compodoc": false,
+        "styles": ["packages/core/src/lib/surface/aa3d-surface.scss"],
         "outputDir": "dist/storybook/button"
       }
     },
