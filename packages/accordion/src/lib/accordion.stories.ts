@@ -78,33 +78,33 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; flex-direction: column; gap: 16px;">
-        <aa3d-accordion [theme]="{ hue: 345 }">
+        <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header>Red</aa3d-accordion-header>
+            <aa3d-accordion-header [theme]="{ hue: 345 }">Red</aa3d-accordion-header>
             <aa3d-accordion-panel>Red themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
-        <aa3d-accordion [theme]="{ hue: 225 }">
+        <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header>Blue</aa3d-accordion-header>
+            <aa3d-accordion-header [theme]="{ hue: 225 }">Blue</aa3d-accordion-header>
             <aa3d-accordion-panel>Blue themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
-        <aa3d-accordion [theme]="{ hue: 145, saturation: 80 }">
+        <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header>Green</aa3d-accordion-header>
+            <aa3d-accordion-header [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-accordion-header>
             <aa3d-accordion-panel>Green themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
-        <aa3d-accordion [theme]="{ hue: 275 }">
+        <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header>Purple</aa3d-accordion-header>
+            <aa3d-accordion-header [theme]="{ hue: 275 }">Purple</aa3d-accordion-header>
             <aa3d-accordion-panel>Purple themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
-        <aa3d-accordion [theme]="{ hue: 35 }">
+        <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header>Orange</aa3d-accordion-header>
+            <aa3d-accordion-header [theme]="{ hue: 35 }">Orange</aa3d-accordion-header>
             <aa3d-accordion-panel>Orange themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>

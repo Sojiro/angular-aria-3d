@@ -76,39 +76,39 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-multiselect [theme]="{ hue: 345 }">
-          <aa3d-multiselect-trigger>Red</aa3d-multiselect-trigger>
+        <aa3d-multiselect>
+          <aa3d-multiselect-trigger [theme]="{ hue: 345 }">Red</aa3d-multiselect-trigger>
           <aa3d-multiselect-listbox>
-            <aa3d-multiselect-option>Red 1</aa3d-multiselect-option>
-            <aa3d-multiselect-option>Red 2</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 345 }">Red 1</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 345 }">Red 2</aa3d-multiselect-option>
           </aa3d-multiselect-listbox>
         </aa3d-multiselect>
-        <aa3d-multiselect [theme]="{ hue: 225 }">
-          <aa3d-multiselect-trigger>Blue</aa3d-multiselect-trigger>
+        <aa3d-multiselect>
+          <aa3d-multiselect-trigger [theme]="{ hue: 225 }">Blue</aa3d-multiselect-trigger>
           <aa3d-multiselect-listbox>
-            <aa3d-multiselect-option>Blue 1</aa3d-multiselect-option>
-            <aa3d-multiselect-option>Blue 2</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 225 }">Blue 1</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 225 }">Blue 2</aa3d-multiselect-option>
           </aa3d-multiselect-listbox>
         </aa3d-multiselect>
-        <aa3d-multiselect [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-multiselect-trigger>Green</aa3d-multiselect-trigger>
+        <aa3d-multiselect>
+          <aa3d-multiselect-trigger [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-multiselect-trigger>
           <aa3d-multiselect-listbox>
-            <aa3d-multiselect-option>Green 1</aa3d-multiselect-option>
-            <aa3d-multiselect-option>Green 2</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-multiselect-option>
           </aa3d-multiselect-listbox>
         </aa3d-multiselect>
-        <aa3d-multiselect [theme]="{ hue: 275 }">
-          <aa3d-multiselect-trigger>Purple</aa3d-multiselect-trigger>
+        <aa3d-multiselect>
+          <aa3d-multiselect-trigger [theme]="{ hue: 275 }">Purple</aa3d-multiselect-trigger>
           <aa3d-multiselect-listbox>
-            <aa3d-multiselect-option>Purple 1</aa3d-multiselect-option>
-            <aa3d-multiselect-option>Purple 2</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 275 }">Purple 1</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 275 }">Purple 2</aa3d-multiselect-option>
           </aa3d-multiselect-listbox>
         </aa3d-multiselect>
-        <aa3d-multiselect [theme]="{ hue: 35 }">
-          <aa3d-multiselect-trigger>Orange</aa3d-multiselect-trigger>
+        <aa3d-multiselect>
+          <aa3d-multiselect-trigger [theme]="{ hue: 35 }">Orange</aa3d-multiselect-trigger>
           <aa3d-multiselect-listbox>
-            <aa3d-multiselect-option>Orange 1</aa3d-multiselect-option>
-            <aa3d-multiselect-option>Orange 2</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 35 }">Orange 1</aa3d-multiselect-option>
+            <aa3d-multiselect-option [theme]="{ hue: 35 }">Orange 2</aa3d-multiselect-option>
           </aa3d-multiselect-listbox>
         </aa3d-multiselect>
       </div>

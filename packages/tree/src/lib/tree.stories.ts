@@ -72,25 +72,25 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-tree [theme]="{ hue: 345 }">
-          <aa3d-tree-item>Red 1</aa3d-tree-item>
-          <aa3d-tree-item>Red 2</aa3d-tree-item>
+        <aa3d-tree>
+          <aa3d-tree-item [theme]="{ hue: 345 }">Red 1</aa3d-tree-item>
+          <aa3d-tree-item [theme]="{ hue: 345 }">Red 2</aa3d-tree-item>
         </aa3d-tree>
-        <aa3d-tree [theme]="{ hue: 225 }">
-          <aa3d-tree-item>Blue 1</aa3d-tree-item>
-          <aa3d-tree-item>Blue 2</aa3d-tree-item>
+        <aa3d-tree>
+          <aa3d-tree-item [theme]="{ hue: 225 }">Blue 1</aa3d-tree-item>
+          <aa3d-tree-item [theme]="{ hue: 225 }">Blue 2</aa3d-tree-item>
         </aa3d-tree>
-        <aa3d-tree [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-tree-item>Green 1</aa3d-tree-item>
-          <aa3d-tree-item>Green 2</aa3d-tree-item>
+        <aa3d-tree>
+          <aa3d-tree-item [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-tree-item>
+          <aa3d-tree-item [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-tree-item>
         </aa3d-tree>
-        <aa3d-tree [theme]="{ hue: 275 }">
-          <aa3d-tree-item>Purple 1</aa3d-tree-item>
-          <aa3d-tree-item>Purple 2</aa3d-tree-item>
+        <aa3d-tree>
+          <aa3d-tree-item [theme]="{ hue: 275 }">Purple 1</aa3d-tree-item>
+          <aa3d-tree-item [theme]="{ hue: 275 }">Purple 2</aa3d-tree-item>
         </aa3d-tree>
-        <aa3d-tree [theme]="{ hue: 35 }">
-          <aa3d-tree-item>Orange 1</aa3d-tree-item>
-          <aa3d-tree-item>Orange 2</aa3d-tree-item>
+        <aa3d-tree>
+          <aa3d-tree-item [theme]="{ hue: 35 }">Orange 1</aa3d-tree-item>
+          <aa3d-tree-item [theme]="{ hue: 35 }">Orange 2</aa3d-tree-item>
         </aa3d-tree>
       </div>
     `,

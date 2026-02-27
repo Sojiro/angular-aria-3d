@@ -83,34 +83,34 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-grid [theme]="{ hue: 345 }">
+        <aa3d-grid>
           <aa3d-grid-row>
-            <aa3d-grid-cell>Red 1</aa3d-grid-cell>
-            <aa3d-grid-cell>Red 2</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 345 }">Red 1</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 345 }">Red 2</aa3d-grid-cell>
           </aa3d-grid-row>
         </aa3d-grid>
-        <aa3d-grid [theme]="{ hue: 225 }">
+        <aa3d-grid>
           <aa3d-grid-row>
-            <aa3d-grid-cell>Blue 1</aa3d-grid-cell>
-            <aa3d-grid-cell>Blue 2</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 225 }">Blue 1</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 225 }">Blue 2</aa3d-grid-cell>
           </aa3d-grid-row>
         </aa3d-grid>
-        <aa3d-grid [theme]="{ hue: 145, saturation: 80 }">
+        <aa3d-grid>
           <aa3d-grid-row>
-            <aa3d-grid-cell>Green 1</aa3d-grid-cell>
-            <aa3d-grid-cell>Green 2</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-grid-cell>
           </aa3d-grid-row>
         </aa3d-grid>
-        <aa3d-grid [theme]="{ hue: 275 }">
+        <aa3d-grid>
           <aa3d-grid-row>
-            <aa3d-grid-cell>Purple 1</aa3d-grid-cell>
-            <aa3d-grid-cell>Purple 2</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 275 }">Purple 1</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 275 }">Purple 2</aa3d-grid-cell>
           </aa3d-grid-row>
         </aa3d-grid>
-        <aa3d-grid [theme]="{ hue: 35 }">
+        <aa3d-grid>
           <aa3d-grid-row>
-            <aa3d-grid-cell>Orange 1</aa3d-grid-cell>
-            <aa3d-grid-cell>Orange 2</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 35 }">Orange 1</aa3d-grid-cell>
+            <aa3d-grid-cell [theme]="{ hue: 35 }">Orange 2</aa3d-grid-cell>
           </aa3d-grid-row>
         </aa3d-grid>
       </div>

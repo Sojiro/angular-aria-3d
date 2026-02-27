@@ -57,25 +57,25 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-listbox [theme]="{ hue: 345 }">
-          <aa3d-option>Red 1</aa3d-option>
-          <aa3d-option>Red 2</aa3d-option>
+        <aa3d-listbox>
+          <aa3d-option [theme]="{ hue: 345 }">Red 1</aa3d-option>
+          <aa3d-option [theme]="{ hue: 345 }">Red 2</aa3d-option>
         </aa3d-listbox>
-        <aa3d-listbox [theme]="{ hue: 225 }">
-          <aa3d-option>Blue 1</aa3d-option>
-          <aa3d-option>Blue 2</aa3d-option>
+        <aa3d-listbox>
+          <aa3d-option [theme]="{ hue: 225 }">Blue 1</aa3d-option>
+          <aa3d-option [theme]="{ hue: 225 }">Blue 2</aa3d-option>
         </aa3d-listbox>
-        <aa3d-listbox [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-option>Green 1</aa3d-option>
-          <aa3d-option>Green 2</aa3d-option>
+        <aa3d-listbox>
+          <aa3d-option [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-option>
+          <aa3d-option [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-option>
         </aa3d-listbox>
-        <aa3d-listbox [theme]="{ hue: 275 }">
-          <aa3d-option>Purple 1</aa3d-option>
-          <aa3d-option>Purple 2</aa3d-option>
+        <aa3d-listbox>
+          <aa3d-option [theme]="{ hue: 275 }">Purple 1</aa3d-option>
+          <aa3d-option [theme]="{ hue: 275 }">Purple 2</aa3d-option>
         </aa3d-listbox>
-        <aa3d-listbox [theme]="{ hue: 35 }">
-          <aa3d-option>Orange 1</aa3d-option>
-          <aa3d-option>Orange 2</aa3d-option>
+        <aa3d-listbox>
+          <aa3d-option [theme]="{ hue: 35 }">Orange 1</aa3d-option>
+          <aa3d-option [theme]="{ hue: 35 }">Orange 2</aa3d-option>
         </aa3d-listbox>
       </div>
     `,

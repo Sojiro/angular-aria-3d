@@ -75,39 +75,39 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-select [theme]="{ hue: 345 }">
-          <aa3d-select-trigger>Red</aa3d-select-trigger>
+        <aa3d-select>
+          <aa3d-select-trigger [theme]="{ hue: 345 }">Red</aa3d-select-trigger>
           <aa3d-select-listbox>
-            <aa3d-select-option>Red 1</aa3d-select-option>
-            <aa3d-select-option>Red 2</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 345 }">Red 1</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 345 }">Red 2</aa3d-select-option>
           </aa3d-select-listbox>
         </aa3d-select>
-        <aa3d-select [theme]="{ hue: 225 }">
-          <aa3d-select-trigger>Blue</aa3d-select-trigger>
+        <aa3d-select>
+          <aa3d-select-trigger [theme]="{ hue: 225 }">Blue</aa3d-select-trigger>
           <aa3d-select-listbox>
-            <aa3d-select-option>Blue 1</aa3d-select-option>
-            <aa3d-select-option>Blue 2</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 225 }">Blue 1</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 225 }">Blue 2</aa3d-select-option>
           </aa3d-select-listbox>
         </aa3d-select>
-        <aa3d-select [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-select-trigger>Green</aa3d-select-trigger>
+        <aa3d-select>
+          <aa3d-select-trigger [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-select-trigger>
           <aa3d-select-listbox>
-            <aa3d-select-option>Green 1</aa3d-select-option>
-            <aa3d-select-option>Green 2</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-select-option>
           </aa3d-select-listbox>
         </aa3d-select>
-        <aa3d-select [theme]="{ hue: 275 }">
-          <aa3d-select-trigger>Purple</aa3d-select-trigger>
+        <aa3d-select>
+          <aa3d-select-trigger [theme]="{ hue: 275 }">Purple</aa3d-select-trigger>
           <aa3d-select-listbox>
-            <aa3d-select-option>Purple 1</aa3d-select-option>
-            <aa3d-select-option>Purple 2</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 275 }">Purple 1</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 275 }">Purple 2</aa3d-select-option>
           </aa3d-select-listbox>
         </aa3d-select>
-        <aa3d-select [theme]="{ hue: 35 }">
-          <aa3d-select-trigger>Orange</aa3d-select-trigger>
+        <aa3d-select>
+          <aa3d-select-trigger [theme]="{ hue: 35 }">Orange</aa3d-select-trigger>
           <aa3d-select-listbox>
-            <aa3d-select-option>Orange 1</aa3d-select-option>
-            <aa3d-select-option>Orange 2</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 35 }">Orange 1</aa3d-select-option>
+            <aa3d-select-option [theme]="{ hue: 35 }">Orange 2</aa3d-select-option>
           </aa3d-select-listbox>
         </aa3d-select>
       </div>

@@ -61,30 +61,30 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-menu [theme]="{ hue: 345 }">
-          <aa3d-menu-trigger>Red</aa3d-menu-trigger>
-          <aa3d-menu-item>Red Item 1</aa3d-menu-item>
-          <aa3d-menu-item>Red Item 2</aa3d-menu-item>
+        <aa3d-menu>
+          <aa3d-menu-trigger [theme]="{ hue: 345 }">Red</aa3d-menu-trigger>
+          <aa3d-menu-item [theme]="{ hue: 345 }">Red Item 1</aa3d-menu-item>
+          <aa3d-menu-item [theme]="{ hue: 345 }">Red Item 2</aa3d-menu-item>
         </aa3d-menu>
-        <aa3d-menu [theme]="{ hue: 225 }">
-          <aa3d-menu-trigger>Blue</aa3d-menu-trigger>
-          <aa3d-menu-item>Blue Item 1</aa3d-menu-item>
-          <aa3d-menu-item>Blue Item 2</aa3d-menu-item>
+        <aa3d-menu>
+          <aa3d-menu-trigger [theme]="{ hue: 225 }">Blue</aa3d-menu-trigger>
+          <aa3d-menu-item [theme]="{ hue: 225 }">Blue Item 1</aa3d-menu-item>
+          <aa3d-menu-item [theme]="{ hue: 225 }">Blue Item 2</aa3d-menu-item>
         </aa3d-menu>
-        <aa3d-menu [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-menu-trigger>Green</aa3d-menu-trigger>
-          <aa3d-menu-item>Green Item 1</aa3d-menu-item>
-          <aa3d-menu-item>Green Item 2</aa3d-menu-item>
+        <aa3d-menu>
+          <aa3d-menu-trigger [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-menu-trigger>
+          <aa3d-menu-item [theme]="{ hue: 145, saturation: 80 }">Green Item 1</aa3d-menu-item>
+          <aa3d-menu-item [theme]="{ hue: 145, saturation: 80 }">Green Item 2</aa3d-menu-item>
         </aa3d-menu>
-        <aa3d-menu [theme]="{ hue: 275 }">
-          <aa3d-menu-trigger>Purple</aa3d-menu-trigger>
-          <aa3d-menu-item>Purple Item 1</aa3d-menu-item>
-          <aa3d-menu-item>Purple Item 2</aa3d-menu-item>
+        <aa3d-menu>
+          <aa3d-menu-trigger [theme]="{ hue: 275 }">Purple</aa3d-menu-trigger>
+          <aa3d-menu-item [theme]="{ hue: 275 }">Purple Item 1</aa3d-menu-item>
+          <aa3d-menu-item [theme]="{ hue: 275 }">Purple Item 2</aa3d-menu-item>
         </aa3d-menu>
-        <aa3d-menu [theme]="{ hue: 35 }">
-          <aa3d-menu-trigger>Orange</aa3d-menu-trigger>
-          <aa3d-menu-item>Orange Item 1</aa3d-menu-item>
-          <aa3d-menu-item>Orange Item 2</aa3d-menu-item>
+        <aa3d-menu>
+          <aa3d-menu-trigger [theme]="{ hue: 35 }">Orange</aa3d-menu-trigger>
+          <aa3d-menu-item [theme]="{ hue: 35 }">Orange Item 1</aa3d-menu-item>
+          <aa3d-menu-item [theme]="{ hue: 35 }">Orange Item 2</aa3d-menu-item>
         </aa3d-menu>
       </div>
     `,

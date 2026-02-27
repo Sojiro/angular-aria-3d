@@ -69,42 +69,42 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; flex-direction: column; gap: 24px;">
-        <aa3d-tabs [theme]="{ hue: 345 }">
+        <aa3d-tabs>
           <aa3d-tab-list>
-            <aa3d-tab value="r1">Red Tab 1</aa3d-tab>
-            <aa3d-tab value="r2">Red Tab 2</aa3d-tab>
+            <aa3d-tab value="r1" [theme]="{ hue: 345 }">Red Tab 1</aa3d-tab>
+            <aa3d-tab value="r2" [theme]="{ hue: 345 }">Red Tab 2</aa3d-tab>
           </aa3d-tab-list>
           <aa3d-tab-panel value="r1">Red themed content</aa3d-tab-panel>
           <aa3d-tab-panel value="r2">Red themed content 2</aa3d-tab-panel>
         </aa3d-tabs>
-        <aa3d-tabs [theme]="{ hue: 225 }">
+        <aa3d-tabs>
           <aa3d-tab-list>
-            <aa3d-tab value="b1">Blue Tab 1</aa3d-tab>
-            <aa3d-tab value="b2">Blue Tab 2</aa3d-tab>
+            <aa3d-tab value="b1" [theme]="{ hue: 225 }">Blue Tab 1</aa3d-tab>
+            <aa3d-tab value="b2" [theme]="{ hue: 225 }">Blue Tab 2</aa3d-tab>
           </aa3d-tab-list>
           <aa3d-tab-panel value="b1">Blue themed content</aa3d-tab-panel>
           <aa3d-tab-panel value="b2">Blue themed content 2</aa3d-tab-panel>
         </aa3d-tabs>
-        <aa3d-tabs [theme]="{ hue: 145, saturation: 80 }">
+        <aa3d-tabs>
           <aa3d-tab-list>
-            <aa3d-tab value="g1">Green Tab 1</aa3d-tab>
-            <aa3d-tab value="g2">Green Tab 2</aa3d-tab>
+            <aa3d-tab value="g1" [theme]="{ hue: 145, saturation: 80 }">Green Tab 1</aa3d-tab>
+            <aa3d-tab value="g2" [theme]="{ hue: 145, saturation: 80 }">Green Tab 2</aa3d-tab>
           </aa3d-tab-list>
           <aa3d-tab-panel value="g1">Green themed content</aa3d-tab-panel>
           <aa3d-tab-panel value="g2">Green themed content 2</aa3d-tab-panel>
         </aa3d-tabs>
-        <aa3d-tabs [theme]="{ hue: 275 }">
+        <aa3d-tabs>
           <aa3d-tab-list>
-            <aa3d-tab value="p1">Purple Tab 1</aa3d-tab>
-            <aa3d-tab value="p2">Purple Tab 2</aa3d-tab>
+            <aa3d-tab value="p1" [theme]="{ hue: 275 }">Purple Tab 1</aa3d-tab>
+            <aa3d-tab value="p2" [theme]="{ hue: 275 }">Purple Tab 2</aa3d-tab>
           </aa3d-tab-list>
           <aa3d-tab-panel value="p1">Purple themed content</aa3d-tab-panel>
           <aa3d-tab-panel value="p2">Purple themed content 2</aa3d-tab-panel>
         </aa3d-tabs>
-        <aa3d-tabs [theme]="{ hue: 35 }">
+        <aa3d-tabs>
           <aa3d-tab-list>
-            <aa3d-tab value="o1">Orange Tab 1</aa3d-tab>
-            <aa3d-tab value="o2">Orange Tab 2</aa3d-tab>
+            <aa3d-tab value="o1" [theme]="{ hue: 35 }">Orange Tab 1</aa3d-tab>
+            <aa3d-tab value="o2" [theme]="{ hue: 35 }">Orange Tab 2</aa3d-tab>
           </aa3d-tab-list>
           <aa3d-tab-panel value="o1">Orange themed content</aa3d-tab-panel>
           <aa3d-tab-panel value="o2">Orange themed content 2</aa3d-tab-panel>

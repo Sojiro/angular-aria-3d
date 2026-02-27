@@ -76,39 +76,39 @@ export const ColorPresets: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; flex-wrap: wrap;">
-        <aa3d-combobox [theme]="{ hue: 345 }">
-          <aa3d-combobox-input></aa3d-combobox-input>
+        <aa3d-combobox>
+          <aa3d-combobox-input [theme]="{ hue: 345 }"></aa3d-combobox-input>
           <aa3d-combobox-listbox>
-            <aa3d-combobox-option>Red 1</aa3d-combobox-option>
-            <aa3d-combobox-option>Red 2</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 345 }">Red 1</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 345 }">Red 2</aa3d-combobox-option>
           </aa3d-combobox-listbox>
         </aa3d-combobox>
-        <aa3d-combobox [theme]="{ hue: 225 }">
-          <aa3d-combobox-input></aa3d-combobox-input>
+        <aa3d-combobox>
+          <aa3d-combobox-input [theme]="{ hue: 225 }"></aa3d-combobox-input>
           <aa3d-combobox-listbox>
-            <aa3d-combobox-option>Blue 1</aa3d-combobox-option>
-            <aa3d-combobox-option>Blue 2</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 225 }">Blue 1</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 225 }">Blue 2</aa3d-combobox-option>
           </aa3d-combobox-listbox>
         </aa3d-combobox>
-        <aa3d-combobox [theme]="{ hue: 145, saturation: 80 }">
-          <aa3d-combobox-input></aa3d-combobox-input>
+        <aa3d-combobox>
+          <aa3d-combobox-input [theme]="{ hue: 145, saturation: 80 }"></aa3d-combobox-input>
           <aa3d-combobox-listbox>
-            <aa3d-combobox-option>Green 1</aa3d-combobox-option>
-            <aa3d-combobox-option>Green 2</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 145, saturation: 80 }">Green 1</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 145, saturation: 80 }">Green 2</aa3d-combobox-option>
           </aa3d-combobox-listbox>
         </aa3d-combobox>
-        <aa3d-combobox [theme]="{ hue: 275 }">
-          <aa3d-combobox-input></aa3d-combobox-input>
+        <aa3d-combobox>
+          <aa3d-combobox-input [theme]="{ hue: 275 }"></aa3d-combobox-input>
           <aa3d-combobox-listbox>
-            <aa3d-combobox-option>Purple 1</aa3d-combobox-option>
-            <aa3d-combobox-option>Purple 2</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 275 }">Purple 1</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 275 }">Purple 2</aa3d-combobox-option>
           </aa3d-combobox-listbox>
         </aa3d-combobox>
-        <aa3d-combobox [theme]="{ hue: 35 }">
-          <aa3d-combobox-input></aa3d-combobox-input>
+        <aa3d-combobox>
+          <aa3d-combobox-input [theme]="{ hue: 35 }"></aa3d-combobox-input>
           <aa3d-combobox-listbox>
-            <aa3d-combobox-option>Orange 1</aa3d-combobox-option>
-            <aa3d-combobox-option>Orange 2</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 35 }">Orange 1</aa3d-combobox-option>
+            <aa3d-combobox-option [theme]="{ hue: 35 }">Orange 2</aa3d-combobox-option>
           </aa3d-combobox-listbox>
         </aa3d-combobox>
       </div>
