@@ -72,7 +72,10 @@ export class Aa3dTab {
     },
   ],
   template: `<ng-content />`,
-  styles: [`:host { display: block; }`],
+  styles: [
+    `:host { display: block; }
+     :host([inert]) { display: none; }`,
+  ],
 })
 export class Aa3dTabPanel {
   value = input.required<string>();

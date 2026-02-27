@@ -9,8 +9,8 @@ import { provideAngularAria3d } from '@angular-aria-3d/core';
   template: `
     <aa3d-accordion>
       <aa3d-accordion-item>
-        <aa3d-accordion-header>Section 1</aa3d-accordion-header>
-        <aa3d-accordion-panel>Content 1</aa3d-accordion-panel>
+        <aa3d-accordion-header panelId="test-1">Section 1</aa3d-accordion-header>
+        <aa3d-accordion-panel panelId="test-1">Content 1</aa3d-accordion-panel>
       </aa3d-accordion-item>
     </aa3d-accordion>
   `,
@@ -37,10 +37,10 @@ describe('Aa3dAccordion', () => {
   });
 
   it('should apply medium depth to header by default', () => {
-    const trigger = fixture.nativeElement.querySelector('[aa3dsurface]')
-      || fixture.nativeElement.querySelector('.aa3d-pushable');
-    expect(trigger).toBeTruthy();
-    expect(trigger.style.getPropertyValue('--aa3d-depth-front')).toBe('-3px');
+    const header = fixture.nativeElement.querySelector('aa3d-accordion-header');
+    expect(header).toBeTruthy();
+    expect(header.classList.contains('aa3d-pushable')).toBe(true);
+    expect(header.style.getPropertyValue('--aa3d-depth-front')).toBe('-3px');
   });
 
   it('should project header text into front layer', () => {

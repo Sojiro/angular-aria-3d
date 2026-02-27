@@ -31,16 +31,16 @@ export const Default: Story = {
     template: `
       <aa3d-accordion>
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 1</aa3d-accordion-header>
-          <aa3d-accordion-panel>Content for section 1</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="default-1">Section 1</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="default-1">Content for section 1</aa3d-accordion-panel>
         </aa3d-accordion-item>
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 2</aa3d-accordion-header>
-          <aa3d-accordion-panel>Content for section 2</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="default-2">Section 2</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="default-2">Content for section 2</aa3d-accordion-panel>
         </aa3d-accordion-item>
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 3</aa3d-accordion-header>
-          <aa3d-accordion-panel>Content for section 3</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="default-3">Section 3</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="default-3">Content for section 3</aa3d-accordion-panel>
         </aa3d-accordion-item>
       </aa3d-accordion>
     `,
@@ -53,20 +53,20 @@ export const AllDepths: Story = {
       <div style="display: flex; gap: 24px;">
         <aa3d-accordion style="flex: 1;">
           <aa3d-accordion-item>
-            <aa3d-accordion-header depth="deep">Deep</aa3d-accordion-header>
-            <aa3d-accordion-panel>Deep depth content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="depth-deep" depth="deep">Deep</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="depth-deep">Deep depth content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion style="flex: 1;">
           <aa3d-accordion-item>
-            <aa3d-accordion-header depth="medium">Medium</aa3d-accordion-header>
-            <aa3d-accordion-panel>Medium depth content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="depth-medium" depth="medium">Medium</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="depth-medium">Medium depth content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion style="flex: 1;">
           <aa3d-accordion-item>
-            <aa3d-accordion-header depth="subtle">Subtle</aa3d-accordion-header>
-            <aa3d-accordion-panel>Subtle depth content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="depth-subtle" depth="subtle">Subtle</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="depth-subtle">Subtle depth content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
       </div>
@@ -80,32 +80,32 @@ export const ColorPresets: Story = {
       <div style="display: flex; flex-direction: column; gap: 16px;">
         <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header [theme]="{ hue: 345 }">Red</aa3d-accordion-header>
-            <aa3d-accordion-panel>Red themed content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="color-red" [theme]="{ hue: 345 }">Red</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="color-red">Red themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header [theme]="{ hue: 225 }">Blue</aa3d-accordion-header>
-            <aa3d-accordion-panel>Blue themed content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="color-blue" [theme]="{ hue: 225 }">Blue</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="color-blue">Blue themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-accordion-header>
-            <aa3d-accordion-panel>Green themed content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="color-green" [theme]="{ hue: 145, saturation: 80 }">Green</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="color-green">Green themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header [theme]="{ hue: 275 }">Purple</aa3d-accordion-header>
-            <aa3d-accordion-panel>Purple themed content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="color-purple" [theme]="{ hue: 275 }">Purple</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="color-purple">Purple themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
         <aa3d-accordion>
           <aa3d-accordion-item>
-            <aa3d-accordion-header [theme]="{ hue: 35 }">Orange</aa3d-accordion-header>
-            <aa3d-accordion-panel>Orange themed content</aa3d-accordion-panel>
+            <aa3d-accordion-header panelId="color-orange" [theme]="{ hue: 35 }">Orange</aa3d-accordion-header>
+            <aa3d-accordion-panel panelId="color-orange">Orange themed content</aa3d-accordion-panel>
           </aa3d-accordion-item>
         </aa3d-accordion>
       </div>
@@ -118,16 +118,16 @@ export const MultiExpandable: Story = {
     template: `
       <aa3d-accordion [multiExpandable]="true">
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 1</aa3d-accordion-header>
-          <aa3d-accordion-panel>Multiple sections can be open at once.</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="multi-1">Section 1</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="multi-1">Multiple sections can be open at once.</aa3d-accordion-panel>
         </aa3d-accordion-item>
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 2</aa3d-accordion-header>
-          <aa3d-accordion-panel>Try opening this while Section 1 is open.</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="multi-2">Section 2</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="multi-2">Try opening this while Section 1 is open.</aa3d-accordion-panel>
         </aa3d-accordion-item>
         <aa3d-accordion-item>
-          <aa3d-accordion-header>Section 3</aa3d-accordion-header>
-          <aa3d-accordion-panel>All three can be expanded simultaneously.</aa3d-accordion-panel>
+          <aa3d-accordion-header panelId="multi-3">Section 3</aa3d-accordion-header>
+          <aa3d-accordion-panel panelId="multi-3">All three can be expanded simultaneously.</aa3d-accordion-panel>
         </aa3d-accordion-item>
       </aa3d-accordion>
     `,
